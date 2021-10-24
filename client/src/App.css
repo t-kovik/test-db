@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, ul, button {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.header {
+  border-bottom: 1px solid #0a67a3;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+
+.weather, .weather-box {
+  display: flex;
+  align-items: center;
+}
+
+.weather-box__data {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.weather__search-input {
+  padding: 0 5px;
+  height: 31px;
+  border: 1px solid #0a67a3;
+  border-radius: 12px 0 0 12px;
+}
+
+.weather__search-btn {
+  padding: 8px 10px;
+  background: #0a67a3;
+  color: #fff;
+  border: 0;
+  border-radius: 0 12px 12px 0;
+}
+
+.icon-weather {
+  width: 28px;
+  height: 28px;
+  background: url("icons/day_clear.svg") no-repeat;
+}
+
+.icon-weather.rain {
+  background: url("icons/rain.svg") no-repeat;
+}
+
+.icon-weather.cloudy {
+  background: url("icons/cloudy.svg") no-repeat;
+}
+
+.icon-weather.foggy {
+  background: url("icons/fog.svg") no-repeat;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px 10px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form__input {
+  margin: 0 10px;
+}
+
+.form__btn {
+  padding: 5px 10px;
+  background: #0a67a3;
+  color: #fff
+}
