@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `storage` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_bin */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `storage`;
 -- MySQL dump 10.13  Distrib 8.0.26, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: storage
@@ -213,6 +211,14 @@ LOCK TABLES `unit_type` WRITE;
 INSERT INTO `unit_type` VALUES (1,'штука'),(2,'метр'),(3,'упаковка');
 /*!40000 ALTER TABLE `unit_type` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Dumping events for database 'storage'
+--
+
+--
+-- Dumping routines for database 'storage'
+--
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -223,4 +229,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-10-24 17:14:54
+-- Dump completed on 2021-10-24 18:12:19
